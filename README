@@ -1,10 +1,8 @@
 Copyright 2009 Erik Weitnauer
 
-==========================================
+This is a collection of small, useful ruby scripts.
 
-Collection of small, useful ruby scripts.
-
-== add_gpl.rb ============================
+== add_gpl.rb ====================================
 
 Add GPLv3 comments to the top of a bunch of files.
 
@@ -14,7 +12,7 @@ Example:
  for recursively add gpl note to all .cpp and .h files call
  ruby add_gpl '**/*.{cpp,h}' '//' 'Copyright 2009 Erik Weitnauer' 'Awesomo'
  
-== substitute.rb ==========================
+== substitute.rb ==================================
 
 Find and replace in mulitple files with a regular expression.
 
@@ -26,5 +24,3 @@ Example:
 Example:
   for recursively put all vocals in brackets in all .txt files use
   ruby substitute.rb '**/*.txt' '([aeiou])' '<\1>'
-
-  
